@@ -35,11 +35,30 @@ a::before {
     box-shadow: 5px 5px 0px #000;
     padding: 18px 20px;
     margin-right: 0;
+    transition: transform 100ms, background-color 0.8s;
     
     
 }
 
 #button:hover {
-    background-color: #B2C5B2;
-    font-size: 21px;
+    transform: scale(1.1);
+    background-color: #537064;
+}
+
+.title{
+    display: inline-block;
+    background-color: #3A4042;
+    width: 627px;
+    height: 184px;
+    margin-top: 196px;
+    margin-left: 91px;
+    box-shadow: #000 ;
+}
+
+.name{
+    color: #6B8E4E;
+}
+
+.caption{
+    color: #FFF;
 }
